@@ -120,8 +120,23 @@
         <form action="/action.php">
             <input type="text" placeholder="Username:-"><br>
             <input type="password" placeholder="Password"><br>
-            <input type="radio" value="class 11" name="class">class 11
-            <input type="radio" value="class 12" name="class">class 12<br>
+            <label for="101">
+                <input type="radio" value="class 11" name="class" id="101">class 11
+            </label>
+            <label for="102">
+                <input type="radio" value="class 12" name="class" id="102">class 12<br>
+            </label><br>
+            select your subject.<br>
+            <label for="101">
+                <input type="checkbox" value="maths" name="subject" id="101">maths
+            </label><br>
+            <label for="102">
+                <input type="checkbox" value="english" name="subject" id="102">english<br>
+            </label><br>
+            <label for="103">
+                <input type="checkbox" value="phy" name="subject" id="103">phy<br>
+            </label><br>
+            <textarea name="feedback" id="101" placeholder="please give me your feedback here" rows="5">feedback</textarea>
             
         </form>
     </main>
